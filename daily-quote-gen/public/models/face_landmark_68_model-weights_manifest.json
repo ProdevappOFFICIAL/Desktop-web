@@ -1,0 +1,110 @@
+[
+    {
+      "paths": [
+        "face_landmark_68_model-shard1"
+      ],
+      "weights": {
+        "conv1": {
+          "kernel": {
+            "dtype": "float32",
+            "shape": [3, 3, 3, 32]
+          },
+          "bias": {
+            "dtype": "float32",
+            "shape": [32]
+          }
+        },
+        "conv2": {
+          "kernel": {
+            "dtype": "float32",
+            "shape": [3, 3, 32, 64]
+          },
+          "bias": {
+            "dtype": "float32",
+            "shape": [64]
+          }
+        },
+        "conv3": {
+          "kernel": {
+            "dtype": "float32",
+            "shape": [3, 3, 64, 64]
+          },
+          "bias": {
+            "dtype": "float32",
+            "shape": [64]
+          }
+        },
+        "conv4": {
+          "kernel": {
+            "dtype": "float32",
+            "shape": [3, 3, 64, 128]
+          },
+          "bias": {
+            "dtype": "float32",
+            "shape": [128]
+          }
+        },
+        "conv5": {
+          "kernel": {
+            "dtype": "float32",
+            "shape": [3, 3, 128, 128]
+          },
+          "bias": {
+            "dtype": "float32",
+            "shape": [128]
+          }
+        },
+        "conv6": {
+          "kernel": {
+            "dtype": "float32",
+            "shape": [3, 3, 128, 256]
+          },
+          "bias": {
+            "dtype": "float32",
+            "shape": [256]
+          }
+        },
+        "conv7": {
+          "kernel": {
+            "dtype": "float32",
+            "shape": [3, 3, 256, 256]
+          },
+          "bias": {
+            "dtype": "float32",
+            "shape": [256]
+          }
+        },
+        "conv8": {
+          "kernel": {
+            "dtype": "float32",
+            "shape": [3, 3, 256, 256]
+          },
+          "bias": {
+            "dtype": "float32",
+            "shape": [256]
+          }
+        },
+        "conv9": {
+          "kernel": {
+            "dtype": "float32",
+            "shape": [3, 3, 256, 512]
+          },
+          "bias": {
+            "dtype": "float32",
+            "shape": [512]
+          }
+        },
+        "conv10": {
+          "kernel": {
+            "dtype": "float32",
+            "shape": [1, 1, 512, 68]
+          },
+          "bias": {
+            "dtype": "float32",
+            "shape": [68]
+          }
+        }
+      }
+    }
+  ]
+  
